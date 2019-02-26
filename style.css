@@ -23,11 +23,24 @@ h2 {
 	color: #ff5343;
 }
 
-h3 {
+#h3center {
 	font-family: 'Indie Flower', cursive;
 	color: #ff5343;
 	font-size: 30pt;
 	text-align: center;
+}
+
+#h3left {
+	font-family: 'Indie Flower', cursive;
+	color: #ff5343;
+	font-size: 30pt;
+}
+
+#h3right {
+	font-family: 'Indie Flower', cursive;
+	color: #ff5343;
+	font-size: 30pt;
+	text-align: right;
 }
 
 header {
@@ -84,7 +97,7 @@ ul {
 
 #image3 {
 	display: inline-flex;
-	margin: 40px 0px;
+	margin: 40px 0px 0px 0px;
 }
 
 #pic1 {
@@ -104,17 +117,28 @@ ul {
 
 #textLeft {
 	margin-right: 40px;
-	padding: 400px 0px 0px 0px;
+	padding: 80px 0px 0px 0px;
 }
 
-#h3div {
-	margin: 0px 50px 0px 200px;
+#image2div {
+	margin: 50px 50px 0px 0px;
+	display: flex;
+	flex-direction: column;
+	padding-top: 100px;
+}
+
+#image3div {
+	margin: 50px 0px 0px 0px;
+	display: flex;
+	flex-direction: column;
+	padding-top: 100px;
 }
 
 #textRight {
 	display: inline-block;
-	margin-left: 40px;
-	padding: 300px 0px;
+	margin-left: 90px;
+	padding: 70px 0px;
+	text-align: right;
 }
 
 #introList {
@@ -131,13 +155,8 @@ ul {
 }
 
 #endBoxes {
-	display: flex;
-	flex-direction: row;
 	padding: 10px;
-	background-color: #43c3ff;
 	color: #ff5343;
-	box-shadow: 0 0 40px gray;
-	width: 80%;
 	margin-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
@@ -145,20 +164,60 @@ ul {
 }
 
 #buttons {
-	display: inline-block;
-	font-size: 22px;
+	width: 40%;
+	text-align: center;
+	margin-left: auto;
 	margin-right: auto;
-	padding: 10px 0px 50px 50px;
+	margin-bottom: 50px;
+	padding-bottom: 30px;
+}
+
+.form-radio {
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    position: relative;
+    background-color: #f1f1f1;
+    color: #666;
+    top: 10px;
+    height: 30px;
+    width: 30px;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;     
+    margin-right: 7px;
+    outline: none;
+}
+
+.form-radio:checked::before {
+    position: absolute;
+    font: 13px/1 'Open Sans', sans-serif;
+    left: 11px;
+    top: 7px;
+    content: '\02143';
+    transform: rotate(40deg);
+}
+
+.form-radio:hover {
+     background-color: #f7f7f7;
+}
+.form-radio:checked {
+     background-color: #f1f1f1;
 }
 
 #links {
+	background-color: #43c3ff;
+	width: 80%;
+	box-shadow: 0 0 40px gray;
+	border-radius: 100px;
     margin-left: auto;
-	padding: 0px 50px 20px 0px;
-	text-align: right;
+    margin-right: auto;
+	padding: 20px 30px 20px 30px;
+	text-align: center;
 	font-size: 22pt;
 }
 
 .bottomLink {
-	display: block;
-	margin-top: 20px;
+	margin: 40px 100px 0px 100px
 }
