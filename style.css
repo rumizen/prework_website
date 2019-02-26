@@ -1,0 +1,164 @@
+/* style.css */
+
+body {
+	padding: 40px;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 36pt;
+	font-weight: black;
+	text-transform: uppercase;
+	color: #ff5343;
+}
+
+h2 {
+	text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 18pt;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: -20px;
+	color: #ff5343;
+}
+
+h3 {
+	font-family: 'Indie Flower', cursive;
+	color: #ff5343;
+	font-size: 30pt;
+	text-align: center;
+}
+
+header {
+	background-color: #43c3ff;
+	box-shadow: 0 0 40px gray;
+	width: 80%;
+	margin: auto;
+	padding: 1px;
+}
+
+img {
+	box-shadow: 0 0 40px gray;
+}
+
+a {
+	text-decoration: none;
+	color: #ff5343;
+}
+
+a:hover {
+	color: white;
+	cursor: pointer;
+}
+
+a:active {
+	color: black;
+}
+
+#images {
+	font-family: arial, sans-serif;
+	color: #43c3ff;
+	font-weight: normal;
+}
+
+#intro {
+	font-family: arial, sans-serif;
+	color: #43c3ff;
+	font-weight: normal;
+}
+
+ul {
+	text-align: left;
+	list-style-position: inside;
+	font-weight: bold;
+	color: #ff5343;
+}
+#image1 {
+	margin: 60px 0px 0px 0px;
+}
+#image2 {
+	display: inline-flex;
+	margin: 40px 0px;
+}
+
+#image3 {
+	display: inline-flex;
+	margin: 40px 0px;
+}
+
+#pic1 {
+	margin-bottom: 40px;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.right {
+	display: block;
+	margin-left: auto;
+}
+
+#textLeft {
+	margin-right: 40px;
+	padding: 400px 0px 0px 0px;
+}
+
+#h3div {
+	margin: 0px 50px 0px 200px;
+}
+
+#textRight {
+	display: inline-block;
+	margin-left: 40px;
+	padding: 300px 0px;
+}
+
+#introList {
+	display: flex;
+	justify-content: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+#endBoxes {
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	background-color: #43c3ff;
+	color: #ff5343;
+	box-shadow: 0 0 40px gray;
+	width: 80%;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: helvetica;
+}
+
+#buttons {
+	display: inline-block;
+	font-size: 22px;
+	margin-right: auto;
+	padding: 10px 0px 50px 50px;
+}
+
+#links {
+    margin-left: auto;
+	padding: 0px 50px 20px 0px;
+	text-align: right;
+	font-size: 22pt;
+}
+
+.bottomLink {
+	display: block;
+	margin-top: 20px;
+}
